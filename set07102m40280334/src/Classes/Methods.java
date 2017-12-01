@@ -26,32 +26,11 @@ public class Methods {
 
 	public static void main(String[] args) {
 
-	//	methodForAnswer11();
-		//methodForAnswer12();
-	//	methodForAnswer13();
-	//	methodForAnswer14();
-		//methodForAnswer15();
-		
-		ArrayList<WeatherStation> yo = new ArrayList<>();
-		
-		WeatherStation wsa = new WeatherStation(1,"kermistan", 5.0, 7.0);
-		WeatherStation wsb = new WeatherStation(2,"kermistan", 6.7, 7.5);
-		WeatherStation wsc = new WeatherStation(3,"kermistan", 3.5, 12.1);
-		
-		yo.add(wsa);
-		yo.add(wsb);
-		yo.add(wsc);
-		
-		for(int i = 0; i < yo.size(); i++)
-		{
-			System.out.println(yo.get(i).getSiteName());
-		}
-	
-	
-	
-		
-
-		
+		methodForAnswer11();
+		methodForAnswer12();
+		methodForAnswer13();
+		methodForAnswer14();
+		methodForAnswer15();		
 	}
 
 	/**
